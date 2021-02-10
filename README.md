@@ -17,5 +17,5 @@ helm install nats nats/nats --values values.yaml --namespace nats
 # Apply tcp ingress
 
 ```
-kubectl apply -f nats-ingress-port.yaml
+kubectl patch cm tcp-services --patch-file nats-ingress-port.yaml
 ```

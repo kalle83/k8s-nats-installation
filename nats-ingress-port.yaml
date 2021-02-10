@@ -6,4 +6,4 @@ metadata:
   namespace: ingress-nginx
 data:
   8222: "nats/nats:8222"
-  #  1883: "mqtt/mqtt:1883"
+  4222: "nats/nats:4222"
